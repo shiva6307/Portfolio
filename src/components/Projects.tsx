@@ -5,7 +5,7 @@ const projects = [
  {
     title: 'Prem Dance Studio',
     description: 'Dynamic website for a professional dance studio.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['HTML', 'CSS', 'JavaScript','React'],
     demo: 'https://dance-studio-01.vercel.app/',
     github: 'https://github.com/shiva6307/Dance_studio_01',
     icon: <Tv className="w-6 h-6" />,
