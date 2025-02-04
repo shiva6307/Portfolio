@@ -2,13 +2,21 @@ import React from 'react';
 import { ExternalLink, Github, Layout, Music, Newspaper, Tv } from 'lucide-react';
 
 const projects = [
-  {
-    title: "Krishna Furniture's",
-    description: 'A modern furniture website showcasing products and services.',
+ {
+    title: 'Prem Dance Studio',
+    description: 'Dynamic website for a professional dance studio.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://shiva6307.github.io/Krishna_furnitures/',
-    github: 'https://github.com/shiva6307/Krishna_furnitures',
-    icon: <Layout className="w-6 h-6" />,
+    demo: 'https://dance-studio-01.vercel.app/',
+    github: 'https://github.com/shiva6307/Dance_studio_01',
+    icon: <Tv className="w-6 h-6" />,
+  },
+   {
+    title: 'Luxury_tea_shop',
+    description: 'A static website for a client who has a tea shop.',
+    technologies: ['Tailwind CSS', 'JavaScript', 'React'],
+    demo: 'https://luxury-tea-shop.vercel.app/',
+    github: 'https://github.com/shiva6307/Luxury_tea_shop',
+    icon: <Newspaper className="w-6 h-6" />,
   },
   {
     title: 'Music Player',
@@ -18,21 +26,13 @@ const projects = [
     github: 'https://github.com/shiva6307/Music_player',
     icon: <Music className="w-6 h-6" />,
   },
-  {
-    title: 'NewsNexus',
-    description: 'Real-time news platform with personalized content delivery.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'API'],
-    demo: 'https://shiva6307.github.io/NewsNexus/',
-    github: 'https://github.com/shiva6307/NewsNexus',
-    icon: <Newspaper className="w-6 h-6" />,
-  },
-  {
-    title: 'Prem Dance Studio',
-    description: 'Dynamic website for a professional dance studio.',
+   {
+    title: "Krishna Furniture's",
+    description: 'A modern furniture website showcasing products and services.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://dance-studio-01.vercel.app/',
-    github: 'https://github.com/shiva6307/Dance_studio_01',
-    icon: <Tv className="w-6 h-6" />,
+    demo: 'https://shiva6307.github.io/Krishna_furnitures/',
+    github: 'https://github.com/shiva6307/Krishna_furnitures',
+    icon: <Layout className="w-6 h-6" />,
   },
 ];
 
